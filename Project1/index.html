@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="script.js"></script>
+
+<body onload="startup();">
+    <h1> Welcome to CodeBreaker </h1>
+    <p> The Computer has created 3 digit number with each digit between 1 and 3 <br /> You have 7 guesses attempt </p>
+
+    <button onclick="startGame();">
+        Start a new Game
+    </button>
+    </br>
+    <button onclick="oneclicked();">
+        One
+    </button>
+    <button onclick="twoclicked();">
+        Two
+    </button>
+    <button onclick="threeclicked();">
+        Three
+    </button>
+    </br>
+    Your guess for Vault: <span id="final"></span>
+    </br>
+    Status: <span id="BS"> </span>
+    </br>
+    Clock left: <span id="tries">7</span>
+    </br>
+    <button onclick="clean();">
+        Clear games
+    </button>
+</body>
+
+</html>
