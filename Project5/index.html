@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+
+<body onload="initialize()">
+    <script src="script.js">
+
+    </script>
+
+    <h1>Disjunction Wireless</h1>
+
+    <br />
+    <div id="ana">
+        <div id="thread"> Analysis Table</div>
+        <div class="anaDiv"> Total Customers: <span id="Total">0</span></div>
+        <div class="anaDiv"> Customers in Basic plan: <span id="CB">0</span></div>
+        <div class="anaDiv"> Customers in Comprehensive plan: <span id="CC">0</span></div>
+        <div class="anaDiv"> Customers in Sucker plan: <span id="CS">0</span></div>
+        <div class="anaDiv"> Customers in Unlimited plan: <span id="CU">0</span></div>
+        <div class="anaDiv"> Customers that will benefit from Unlimited plan: <span id="BU">0</span></div>
+        <div class="anaDiv"> Customers in Best plan (cheapest for the customer) for company: <span id="BC">0</span>
+        </div> <!-- Cheapest for the customer -->
+        <div class="anaDiv"> Customers not in the best plan (not cheapest for the customer) for company: <span
+                id="WC">0</span></div> <!-- Most Expensive for the customer -->
+        <div class="anaDiv"> Percentage of customers who are not using the best plan: <span id="PCNB">0</span>%</div>
+        <div class="anaDiv"> Percentage of customers who are using the best plan: <span id="PCB">0</span>%</div>
+        <div class="anaDiv"> Average Overpayment: $<span id="AV">0</span></div>
+    </div>
+
+    <br />
+
+    <div>
+        <table id="CustomerTable">
+            <thread>
+                <th id="headline" colspan="8">Company Data</th>
+            </thread>
+
+            <tbody>
+                <tr id="first">
+                    <th>Customer</th>
+                    <th>Phone Number (+1)</th>
+                    <th>Data (Mb)</th>
+                    <th>Data Plan</th>
+                    <th>Payment Basic ($)</th>
+                    <th>Payment Comprehensive ($)</th>
+                    <th>Payment Sucker ($)</th>
+                    <th>Payment Unlimited ($)</th>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+
+</html>
