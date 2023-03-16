@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="startWeb();">
+    <script src="script.js"></script>
+    <h1 class="header">Slider Puzzle</h1>
+    <center>
+        <div id="table" style="display : table;">
+            <div id="r1" style="display : table-row;">
+                <div id="c11" class="t1" onClick="clickt(1,1);"></div>
+                <div id="c12" class="t2" onClick="clickt(1,2);"></div>
+                <div id="c13" class="t3" onClick="clickt(1,3);"></div>
+                <div id="c14" class="t4" onClick="clickt(1,4);"></div>
+            </div>
+            <div id="r2" style="display : table-row;">
+                <div id="c21" class="t5" onClick="clickt(2,1);"></div>
+                <div id="c22" class="t6" onClick="clickt(2,2);"></div>
+                <div id="c23" class="t7" onClick="clickt(2,3);"></div>
+                <div id="c24" class="t8" onClick="clickt(2,4);"></div>
+            </div>
+            <div id="r3" style="display : table-row;">
+                <div id="c31" class="t9" onClick="clickt(3,1);"></div>
+                <div id="c32" class="t10" onClick="clickt(3,2);"></div>
+                <div id="c33" class="t11" onClick="clickt(3,3);"></div>
+                <div id="c34" class="t12" onClick="clickt(3,4);"></div>
+            </div>
+            <div id="r4" style="display : table-row;">
+                <div id="c41" class="t13" onClick="clickt(4,1);"></div>
+                <div id="c42" class="t14" onClick="clickt(4,2);"></div>
+                <div id="c43" class="t15" onClick="clickt(4,3);"></div>
+                <div id="c44" class="t16" onClick="clickt(4,4);"></div>
+            </div>
+        </div>
+        <button class="button" onClick="startGame();">Start Game</button>
+        <button class="button" onClick="resetGame();">Reset Game</button>
+        <span class="text">Moves: </span><span id="nom" class="moves">0</span>
+    </center>
+</body>
+
+</html>

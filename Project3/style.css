@@ -1,0 +1,143 @@
+body {
+    background: #999999;
+}
+
+.header {
+    text-align: center;
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+    text-decoration: underline overline;
+}
+
+.button:hover {
+    background-color: #888888;
+    font-weight: bold;
+}
+
+.button:active {
+    background-color: #666666;
+}
+
+.button {
+    font: 12pt Courier New;
+    text-decoration: none;
+    border: 2px dotted black;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.moves {
+    font: 12pt Courier New;
+    margin: auto auto;
+    text-decoration: underline;
+}
+
+.text {
+    font: 12pt Courier New;
+    margin: auto auto;
+    margin-left: 9px;
+}
+
+#hidden {
+    display: none;
+}
+
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6,
+.t7,
+.t8,
+.t9,
+.t10,
+.t11,
+.t12,
+.t13,
+.t14,
+.t15,
+.t16 {
+    display: table-cell;
+    width: 100px;
+    max-height: 100px;
+    height: 100px;
+    border: 3px solid white;
+    background-image: url(4x4.png);
+    cursor: pointer;
+}
+
+/*row 1*/
+
+.t1 {
+    background-position: 0px 0px;
+}
+
+.t2 {
+    background-position: -100px 0px;
+}
+
+.t3 {
+    background-position: -200px 0px;
+}
+
+.t4 {
+    background-position: -300px 0px;
+}
+
+/*row 2*/
+
+.t5 {
+    background-position: 0px -100px;
+}
+
+.t6 {
+    background-position: -100px -100px;
+}
+
+.t7 {
+    background-position: -200px -100px;
+}
+
+.t8 {
+    background-position: -300px -100px;
+}
+
+/*row 3*/
+
+.t9 {
+    background-position: 0px -200px;
+}
+
+.t10 {
+    background-position: -100px -200px;
+}
+
+.t11 {
+    background-position: -200px -200px;
+}
+
+.t12 {
+    background-position: -300px -200px;
+}
+
+/*row 3*/
+
+.t13 {
+    background-position: 0px -300px;
+}
+
+.t14 {
+    background-position: -100px -300px;
+}
+
+.t15 {
+    background-position: -200px -300px;
+}
+
+.t16 {
+    background: white;
+    cursor: default;
+}
