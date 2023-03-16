@@ -1,0 +1,120 @@
+.header {
+    text-align: center;
+    font-family: comic sans ms;
+    font-weight: bold;
+    font-size: 45px;
+    color: #0F2A5F;
+    text-decoration: underline overline;
+}
+
+.header2 {
+    text-align: center;
+    font-family: comic sans ms;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0F2A5F;
+    text-decoration: underline overline;
+}
+
+.page {
+    text-align: left;
+    font-family: comic sans ms;
+    font-size: 24px;
+    background-color: #0F2A5F;
+    color: white;
+}
+
+a {
+    font: 15pt comic sans ms;
+    text-align: center;
+    margin: auto auto;
+    border: 2px solid #0F2A5F;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+    background: rgb(255, 0, 0);
+}
+
+a:link {
+    color: #0F2A5F;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.text {
+    font: 12pt comic sans ms;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    font: 12pt comic sans ms;
+    margin-top: 6px;
+    text-decoration: none;
+    border: 2px dotted #0F2A5F;
+    cursor: pointer;
+}
+
+button:active {
+    color: rgb(255, 0, 0);
+    background: rgb(255, 0, 0);
+}
+
+#MrO {
+    align-self: center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font: 12pt comic sans ms;
+    background-color: transparent;
+}
+
+#TS {
+    align-self: center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font: 12pt comic sans ms;
+    background-color: transparent;
+}
+
+#OS {
+    align-self: center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font: 12pt comic sans ms;
+    background-color: transparent;
+}
+
+#WM {
+    align-self: center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font: 12pt comic sans ms;
+    background-color: transparent;
+}
+
+#EP {
+    align-self: center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font: 12pt comic sans ms;
+    background-color: transparent;
+}
+
+#GG {
+    align-self: center;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font: 12pt comic sans ms;
+    background-color: transparent;
+}
